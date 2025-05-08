@@ -1,24 +1,17 @@
 {
-  "spider": "./spider.jar",
+  "spider": "./jar/spider.jar",
   "wallpaper": "https://api.likepoems.com/img/bing",
   "sites": [
     {
       "key": "豆瓣",
-      "name": "聚🈴☟长按海报可搜索",
+      "name": "☟长按主页刷新☟",
       "type": 3,
-      "api": "csp_Douban",
-      "jar": "./lib/xhpmd.jar",
-      "searchable": 1,
+      "api": "csp_DouDouGuard",
+      "jar": "./jar/fty.jar;md5;2c6500c44ee7e7b915f8c0afb0723e50",
+       "indexs": 1,
+      "searchable": 0,
       "quickSearch": 0,
-      "filterable": 1,
-      "ext": "https://lz.qaiu.top/parser?url=https://share.feijipan.com/s/DgHh2ULR"
-    },
-    {
-      "key": "版本更新",
-      "name": "👉🏼云视.apk┃更新",
-      "type": 3,
-      "api": "csp_Market",
-      "ext": "https://lz.qaiu.top/parser?url=https://share.feijipan.com/s/yZHhdNqM"
+      "changeable": 0
     },
     {
       "key": "lf_live10_min",
@@ -32,7 +25,28 @@
       "ext": "https://lz.qaiu.top/parser?url=https://share.feijipan.com/s/bIHh2169"
     },
     {
-      "key": "4Ka影视",
+      "key": "腾腾弹幕",
+      "name": "4K腾云┃免扫",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/tx1.js"
+    },
+    {
+      "key": "芒芒弹幕",
+      "name": "4K果果┃免扫",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "playerType": 1,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/mg1.js"
+    },
+    {
+      "key": "4K影视",
       "name": "4K专线┃免扫",
       "type": 3,
       "api": "csp_XBPQ",
@@ -77,7 +91,7 @@
       "key": "公众号",
       "name": "4K移动┃免扫",
       "type": 3,
-      "jar": "./lib/YD.jar",
+      "jar": "./jar/YD.jar",
       "api": "csp_YDjisu",
       "searchable": 1,
       "changeable": 1
@@ -87,7 +101,7 @@
       "name": "4K彼心┃免扫",
       "type": 3,
       "api": "csp_BiXin",
-      "jar": "./lib/custom_spider.jar;md5;e180e9908b1303c5cc3686b9002fdbaf",
+      "jar": "./jar/custom_spider.jar;md5;e180e9908b1303c5cc3686b9002fdbaf",
       "searchable": 1,
       "changeable": 1,
       "ext": {}
@@ -113,39 +127,18 @@
       "name": "4K秒映┃免扫",
       "type": 3,
       "api": "csp_AppGetApp",
-      "jar": "./lib/miaoy.jar",
+      "jar": "./jar/miaoy.jar",
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0,
       "ext": "w6/ClsOAw4rDosKWe8KVwrFbwq7Cj8KUw4LDmMKkV1xYW8OYw5TDkMOTw6fCocKke8Kdwq3Cm8Kpwo3CiMOlZmVhaGbCqMKnwpTDng=="
-    },
-    {
-      "key": "腾腾弹幕",
-      "name": "4K腾云┃免扫",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/tx1.js"
-    },
-    {
-      "key": "芒芒弹幕",
-      "name": "4K果果┃免扫",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "playerType": 1,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/mg1.js"
-    },
+    },    
     {
       "key": "drpyS_多多[盘]",
       "name": "4K多多┃免扫",
       "type": 4,
       "api": "https://zhxy.eu.org/api/多多[盘]",
-      "jar": "./lib/miansao.jar;md5;cc3b3d2ddf389338b62eccd4a938b610",
+      "jar": "./jar/miansao.jar;md5;cc3b3d2ddf389338b62eccd4a938b610",
       "searchable": 1,
       "filterable": 0,
       "quickSearch": 1,
@@ -156,7 +149,7 @@
       "name": "4K闪电┃免扫",
       "type": 4,
       "api": "https://zhxy.eu.org/api/闪电[盘]",
-      "jar": "./lib/miansao.jar;md5;cc3b3d2ddf389338b62eccd4a938b610",
+      "jar": "./jar/miansao.jar;md5;cc3b3d2ddf389338b62eccd4a938b610",
       "searchable": 1,
       "filterable": 0,
       "quickSearch": 1,
@@ -167,7 +160,7 @@
       "name": "4K下饭┃免扫",
       "type": 4,
       "api": "https://zhxy.eu.org/api/下饭[盘]",
-      "jar": "./lib/miansao.jar;md5;cc3b3d2ddf389338b62eccd4a938b610",
+      "jar": "./jar/miansao.jar;md5;cc3b3d2ddf389338b62eccd4a938b610",
       "searchable": 1,
       "filterable": 0,
       "quickSearch": 1,
@@ -184,7 +177,7 @@
       "key": "Introduce",
       "name": "⚙️UC配置",
       "type": 3,
-      "jar": "./lib/custom_spider.jar;md5;282efbba82ff616801f7934b04f943f3",
+      "jar": "./jar/custom_spider.jar;md5;282efbba82ff616801f7934b04f943f3",
       "api": "csp_Introduce"
     },
     {
@@ -194,7 +187,7 @@
       "api": "csp_ShanDian",
       "searchable": 1,
       "changeable": 1,
-      "jar": "./lib/custom_spider.jar;md5;e180e9908b1303c5cc3686b9002fdbaf",
+      "jar": "./jar/custom_spider.jar;md5;e180e9908b1303c5cc3686b9002fdbaf",
       "ext": "{\"site\":[\"http://1.95.79.193/\"]}"
     },
     {
@@ -204,7 +197,7 @@
       "api": "csp_ShanDian",
       "searchable": 1,
       "changeable": 1,
-      "jar": "./lib/custom_spider3.jar;md5;e180e9908b1303c5cc3686b9002fdbaf",
+      "jar": "./jar/custom_spider3.jar;md5;e180e9908b1303c5cc3686b9002fdbaf",
       "ext": "{\"site\":[\"https://123.91muou.icu/\",\"https://123.muouso.fun/\",\"https://123.666291.xyz/\"]}"
     },
     {
@@ -214,7 +207,7 @@
       "api": "csp_TeXiaFan",
       "searchable": 1,
       "changeable": 1,
-      "jar": "./lib/custom_spider.jar;md5;e180e9908b1303c5cc3686b9002fdbaf",
+      "jar": "./jar/custom_spider.jar;md5;e180e9908b1303c5cc3686b9002fdbaf",
       "ext": "{\"site\": [\"http://www.xn--ghqy10g1w0a.xyz/\",\"http://www.txfyyda.top/\",]}"
     },
     {
@@ -259,7 +252,7 @@
         "type": "rect",
         "ratio": 1.433
       },
-      "ext": "./lib/lj.json"
+      "ext": "./json/lj.json"
     },
     {
       "key": "Pan1",
@@ -274,7 +267,7 @@
         "type": "list",
         "ratio": 1.433
       },
-      "ext": "./lib/pan1.json"
+      "ext": "./json/pan1.json"
     },
     {
       "key": "UC",
@@ -284,7 +277,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "./lib/f0408a.jar;md5;fe5929df64eb2358effeb032359732e5",
+      "jar": "./jar/f0408a.jar;md5;fe5929df64eb2358effeb032359732e5",
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
@@ -304,7 +297,7 @@
       "name": "云视┃2K",
       "type": 3,
       "api": "csp_FourKTV",
-      "jar": "./lib/fkmib.jar",
+      "jar": "./jar/fkmib.jar",
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
@@ -437,7 +430,7 @@
       "type": 3,
       "api": "csp_Bili2",
       "searchable": 0,
-      "jar": "./lib/qx.jar",
+      "jar": "./jar/qx.jar",
       "ext": "https://lz.qaiu.top/parser?url=https://share.feijipan.com/s/CEE3NFMS"
     },
     {
@@ -445,7 +438,7 @@
       "name": "幼儿教育_💯",
       "type": 3,
       "api": "csp_Bili",
-      "jar": "./lib/jiaoyu.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "jar": "./jar/jiaoyu.jar;md5;5C5116C70E15343433C8480C3B448408",
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
@@ -456,7 +449,7 @@
       "name": "小学教育_💯",
       "type": 3,
       "api": "csp_Bili",
-      "jar": "./lib/jiaoyu.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "jar": "./jar/jiaoyu.jar;md5;5C5116C70E15343433C8480C3B448408",
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
@@ -467,7 +460,7 @@
       "name": "初中教育_💯",
       "type": 3,
       "api": "csp_Bili",
-      "jar": "./lib/jiaoyu.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "jar": "./jar/jiaoyu.jar;md5;5C5116C70E15343433C8480C3B448408",
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
@@ -478,7 +471,7 @@
       "name": "高中教育_💯",
       "type": 3,
       "api": "csp_Bili",
-      "jar": "./lib/jiaoyu.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "jar": "./jar/jiaoyu.jar;md5;5C5116C70E15343433C8480C3B448408",
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
@@ -544,7 +537,7 @@
         "type": "rect",
         "ratio": 1
       },
-      "jar": "./lib/fm.jar",
+      "jar": "./jar/fm.jar",
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0
@@ -566,7 +559,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "./lib/fm.jar",
+      "jar": "./jar/fm.jar",
       "style": {
         "type": "rect",
         "ratio": 3.8
@@ -577,7 +570,7 @@
       "name": "韩剧｜APP",
       "type": 3,
       "api": "csp_HanXiaoQuan",
-      "jar": "./lib/han.jar",
+      "jar": "./jar/han.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -590,7 +583,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0,
-      "jar": "./lib/spider.jar"
+      "jar": "./jar/spider.jar"
     },
     {
       "key": "红果短剧",
@@ -616,7 +609,7 @@
     },
     {
       "key": "蓝莓短剧",
-      "name": "云视┃短剧",
+      "name": "蓝莓┃短剧",
       "type": 3,
       "playerType": 2,
       "searchable": 1,
@@ -755,9 +748,9 @@
   ],
   "lives": [
     {
-      "name": "云视",
+      "name": "自用",
       "type": 0,
-      "url": "./lib/iptv.m3u",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/xiaolong-nihao/IPTV-api/refs/heads/master/output/love.m3u",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.iill.top/logo/{name}.png",
       "ua": "okhttp/3.15,AptvPlayer/1.4.0",
