@@ -1,0 +1,10 @@
+#订阅名
+地址(支持m3u订阅、tvbox配置文件中live选项的直播地址订阅)
+
+相对路径说明
+以./开头，相对位置是本订阅文件
+以/开头，存储卡的根目录
+#云视直播
+https://lz.qaiu.top/parser?url=https://share.feijipan.com/s/tlHh2MG0
+#央卫咪咕
+http://api.mytv666.top/lives/free.php?type=txt
