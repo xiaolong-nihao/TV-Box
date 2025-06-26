@@ -1,0 +1,45 @@
+下载
+https://download.ttplayer.co/
+
+歌词
+https://www.rangotec.com/blog/76.html
+
+歌词服务器
+用阿里云服务器
+
+http://yun.rangotec.com:86/qianqian
+
+更换方法如下：
+
+使用Resource Hacker 打开千千静听 AddIn 目录下的ttp_lrcsh.dll 文件，  修改里面的歌词服务器地址。
+2001下的
+注意1033和2052下的地址都需要更换。
+
+
+皮肤
+https://www.52pojie.cn/thread-1398034-1-1.html
+
+提示下：*.skn格式直接放到 .....\Skin\
+部份压缩包*.zip格式打开里面是些临散文件  这种皮肤安装包  整个压缩包文件直接到放千千静听 .....\Skin\下面就行 （或改扩展名.skn）
+
+
+
+歌曲解析
+
+https://musicapi.haitangw.net/music/
+
+咪咕音乐
+https://musicapi.haitangw.net/musicapi/?mg&name=
+https://musicapi.haitangw.net/musicapi/mg.php?id=
+
+https://musicapi.haitangw.net/music/kg_song换源版.php?id=
+https://musicapi.haitangw.net/music/?kw&name=
+
+https://musicapi.haitangw.net/music/?qq&name=
+https://musicapi.haitangw.net/music/qq_song_kw.php?id=
+
+https://musicapi.haitangw.net/music/wy.php?id=
+https://musicapi.haitangw.net/music/?wy&name=
+
+
+
