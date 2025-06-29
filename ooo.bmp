@@ -1,5 +1,5 @@
 {
-  "spider": "./999.jar",
+  "spider": "./jar/999.jar",
   "lives": [
     {
       "name": "白虎",
