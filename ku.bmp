@@ -1,0 +1,32 @@
+{
+  "urls": [
+    {
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/xiaolong-nihao/TV-Box/refs/heads/main/001.bmp",
+      "name": "家用影院"
+    },
+    {
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/xiaolong-nihao/TV-Box/refs/heads/main/002.bmp",
+      "name": "家用影视"
+    },
+     {
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/xiaolong-nihao/TV-Box/refs/heads/main/003.bmp",
+      "name": "自用影院"
+    },
+    {
+      "url": "http://ok321.top/tv",
+      "name": "ok杰克"
+    },
+    {
+      "url": "http://www.饭太硬.net/tv",
+      "name": "饭太硬"
+    },
+    {
+      "url": "http://tv.nxog.top/m/",    
+      "name": "讴歌"
+    },
+    {
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/xiaolong-nihao/TV-Box/refs/heads/main/ooo.bmp",    
+      "name": "青春"
+    }    
+  ]
+}
