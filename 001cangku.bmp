@@ -1,12 +1,16 @@
 {
   "urls": [
     {
-      "url": "https://gh-proxy.com/raw.githubusercontent.com/xiaolong-nihao/TV-Box/refs/heads/main/001.bmp",
+      "url": "https://gitee.com/yanglong1251/TV-Box/raw/master/003.bmp",
       "name": "家用影院"
     },
     {
-      "url": "https://gh-proxy.com/raw.githubusercontent.com/xiaolong-nihao/TV-Box/refs/heads/main/fty.bmp",
+      "url": "https://gitee.com/yanglong1251/TV-Box/raw/master/002.bmp",
       "name": "家用影视"
+    },
+     {
+      "url": "https://gitee.com/yanglong1251/TV-Box/raw/master/001.bmp",
+      "name": "自用影院"
     },
     {
       "url": "http://ok321.top/tv",
