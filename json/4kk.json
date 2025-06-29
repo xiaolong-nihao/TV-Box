@@ -1,0 +1,22 @@
+[ 
+   {
+    "name": "推荐",
+    "list": [
+      {
+        "url": "",
+        "icon": "https://11456.kstore.space/JS/logo.jpg"
+      }
+    ]
+  },
+  {
+    "name": "检查更新",
+    "list": [
+      {
+        "name": "小白4k",
+        "url": "http://101.132.194.59:2233/4kk.zip",
+        "icon": "",
+        "version": "终结版"
+      }
+    ]
+  }
+]
