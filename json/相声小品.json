@@ -1,0 +1,44 @@
+{
+  "class": [
+    {
+      "type_name": "春晚小品",
+      "type_id": "春晚小品"
+    },
+    {
+      "type_name": "春晚相声",
+      "type_id": "春晚相声"
+    },
+    {
+      "type_name": "欢乐集结号",
+      "type_id": "欢乐集结号"
+    },
+    {
+      "type_name": "德云社合集",
+      "type_id": "德云社合集"
+    },
+    {
+      "type_name": "赵本山小品",
+      "type_id": "赵本山小品"
+    },
+    {
+      "type_name": "潘长江小品",
+      "type_id": "潘长江小品"
+    },
+    {
+      "type_name": "小品合集",
+      "type_id": "小品合集"
+    },
+    {
+      "type_name": "青曲社合集",
+      "type_id": "青曲社合集"
+    },
+    {
+      "type_name": "苗阜相声",
+      "type_id": "苗阜相声"
+    },
+    {
+      "type_name": "相声新势力",
+      "type_id": "相声新势力"
+    }
+  ]
+}
