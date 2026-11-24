@@ -12,8 +12,8 @@ var rule = {
     },
     timeout: 8000,
     // channel_id：1电影 2电视剧 3纪录片 4动漫 6综艺 15少儿
-    class_name: '电影&电视剧&综艺&动漫&少儿&纪录片',
-    class_url: '1&2&6&4&15&3',
+    class_name: '电影&电视剧&综艺&儿童&动漫&短剧&纪录片',
+    class_url: '1&2&6&15&4&35&3',
     limit: 24,
 
     // 一级：recommend/list，返回 data.list

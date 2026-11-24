@@ -11,8 +11,8 @@ var rule = {
         'Referer': 'https://www.youku.com/'
     },
     timeout: 8000,
-    class_name: '电影&电视剧&综艺&动漫&少儿&纪录片',
-    class_url: '电影&电视剧&综艺&动漫&少儿&纪录片',
+    class_name: '电影&电视剧&综艺&儿童&动漫&短剧&纪录片',
+    class_url: '电影&电视剧&综艺&少儿&动漫&短剧&纪录片',
     limit: 30,
 
     // 一级：category/data，params 里带 type（中文）

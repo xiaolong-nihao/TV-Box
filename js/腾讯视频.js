@@ -12,8 +12,8 @@ var rule = {
     },
     timeout: 8000,
     // channel_id 从 v.qq.com/channel 页面抓的
-    class_name: '电影&电视剧&综艺&动漫&少儿&纪录片',
-    class_url: '100173&100113&100109&100119&100150&100105',
+    class_name: '电影&电视剧&综艺&儿童&动漫&纪录片',
+    class_url: '100173&100113&100109&100150&100119&100105',
     limit: 30,
 
     // 一级：POST pbaccess，拿 channel_list_poster 里的 cards
